@@ -44,4 +44,8 @@ export default {
   tailwindcss: {
     // Options
   },
+
+  router: {
+    middleware: 'auth'
+  }
 }
