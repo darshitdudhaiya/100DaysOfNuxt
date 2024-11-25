@@ -1,0 +1,12 @@
+{
+  "extends": "./.nuxt/tsconfig.json",
+  "compilerOptions": {
+    "module": "esnext", // Set this to 'esnext'
+    "target": "esnext", // Ensures compatibility with modern JavaScript
+    "strict": true,
+    "jsx": "preserve",
+    "moduleResolution": "node",
+    "types": ["@nuxt/types", "@types/node"],
+    "skipLibCheck": true
+  }
+}
