@@ -14,7 +14,7 @@
 
 <script lang="ts" setup>
 import { computed, type HTMLAttributes } from "vue";
-import { cn } from "../../Lib/utils";
+import { cn } from "../../Lib/utils.js";
 
 interface Props {
   textColor?: string;
