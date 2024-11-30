@@ -2,7 +2,8 @@
   <!-- <Card /> -->
   <!-- <Text /> -->
   <!-- <Grid /> -->
-  <Progressbar/>
+  <!-- <Progressbar/> -->
+  <List/>
 </template>
 
 <script setup>
@@ -11,4 +12,5 @@ import Text  from "./pages/Text";
 import Grid  from "./pages/Grid";
 import Beam  from "./pages/Beam";
 import Progressbar  from "./pages/Progress-bar";
+import List  from "./pages/List";
 </script>
