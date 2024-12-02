@@ -3,7 +3,8 @@
   <!-- <Text /> -->
   <!-- <Grid /> -->
   <!-- <Progressbar/> -->
-  <List/>
+  <!-- <List/> -->
+  <Slider/>
 </template>
 
 <script setup>
@@ -13,4 +14,6 @@ import Grid  from "./pages/Grid";
 import Beam  from "./pages/Beam";
 import Progressbar  from "./pages/Progress-bar";
 import List  from "./pages/List";
+import Avatar  from "./pages/Avatar";
+import Slider  from "./pages/Slider";
 </script>
