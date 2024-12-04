@@ -6,6 +6,7 @@ export default defineNuxtConfig({
     '@nuxt/image'
   ],
   css: ['~/assets/css/main.css'],
+  plugins: ["~/plugins/motion-plugin"],
   postcss: {
     plugins: {
       tailwindcss: {},
