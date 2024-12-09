@@ -2,7 +2,7 @@
   <div
     class="flex items-center justify-center min-h-screen bg-gray-200 dark:bg-gray-800 transition-colors duration-300"
   >
-    <div class="p-6 space-y-6 text-center">
+    <div class=" p-6 space-y-6 text-center">
       <!-- Uncomment components as needed -->
       <!-- Each component will now take the full width -->
       <!-- <Card /> -->
@@ -68,9 +68,7 @@
 
       <!-- <ParticleWhirlpool /> -->
       <!-- <Lamp /> -->
-      <!-- <LinkPreview /> -->
-      <!-- <LogoOrigami /> -->
-      <MultistepLoader />
+      <LinkPreview />
     </div>
   </div>
 </template>
@@ -97,6 +95,4 @@ import ParticleWhirlpool from "./pages/ParticleWhirlpool.vue";
 import Lamp from "./pages/Lamp.vue";
 import Lens from "./pages/Lens.vue";
 import LinkPreview from "./pages/LinkPreview.vue";
-import LogoOrigami from "./pages/LogoOrigami.vue";
-import MultistepLoader from "./pages/MultistepLoader.vue";
 </script>
